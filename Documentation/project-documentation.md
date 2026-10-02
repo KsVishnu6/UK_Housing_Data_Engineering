@@ -257,7 +257,7 @@ The pipeline currently handles the five project datasets:
 
 ## 6. Security
 
-Azure Key Vault is used for the Databricks access token.
+Azure Key Vault is used to securely store the credentials used by the project, including the Blob Storage key, ADLS Gen2 key and Databricks access token
 
 The connection follows this structure:
 
@@ -267,7 +267,7 @@ The connection follows this structure:
 ↓  
 `Azure Key Vault`  
 ↓  
-`Databricks token`
+`BLOB key / ADLS key / Databricks token`
 
 **Key Vault:**
 
