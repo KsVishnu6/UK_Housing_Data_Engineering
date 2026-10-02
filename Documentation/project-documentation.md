@@ -4,7 +4,7 @@
 
 This project is an end-to-end UK housing data engineering pipeline built using Microsoft Azure.
 
-The project brings together multiple public housing datasets and processes them through an automated data pipeline. Data is ingested using Azure Data Factory, stored in ADLS Gen2, transformed and validated in Azure Databricks using PySpark and Delta Lake, and accessed through Synapse Serverless SQL for reporting in Metabase.
+The project brings together multiple public housing datasets and processes them through an automated data pipeline. Data is ingested using Azure Data Factory, stored in ADLS Gen2, transformed and validated in Azure Databricks using PySpark and Delta Lake. The resulting Gold data is accessed through Synapse Serverless SQL and used by Metabase for reporting and visualisation.
 
 The main focus of the project is the data engineering pipeline: ingestion, transformation, validation, standardisation and preparation of data for analytics.
 
