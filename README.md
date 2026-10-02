@@ -26,7 +26,6 @@ The pipeline follows this flow:
 - Azure Key Vault
 - Azure Synapse Serverless SQL
 - Metabase
-- Git / GitHub
 
 ## Source Data
 
