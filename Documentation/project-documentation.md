@@ -277,7 +277,7 @@ The connection follows this structure:
 
 `ukhousingadf`
 
-The Databricks linked service retrieves the token from Key Vault rather than storing the token directly in the pipeline configuration.
+The Databricks linked service retrieves the token from Key Vault rather than storing the keys and token directly in the pipeline configuration.
 
 ---
 
