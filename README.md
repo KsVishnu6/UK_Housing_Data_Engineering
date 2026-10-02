@@ -104,7 +104,6 @@ The Gold Delta tables are exposed through Azure Synapse Serverless SQL views.
 
 The views provide a SQL layer between the Gold data and Metabase without creating a separate serving copy of the data.
 
-![Synapse Serverless SQL](Documentation/images/synapse-views.png)
 
 ## Metabase
 
@@ -117,7 +116,6 @@ The dashboard includes visualisations covering:
 - Homelessness duty households
 - House price and IMD comparison
 
-![Metabase Dashboard](Documentation/images/metabase-dashboard.png)
 
 ## Engineering Decisions
 
