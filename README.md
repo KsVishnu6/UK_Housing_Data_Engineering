@@ -40,7 +40,9 @@ The project uses five public datasets covering UK housing and local-authority in
 
 The datasets come from public sources including GOV.UK, the Office for National Statistics and mySociety.
 
-Detailed source information, filenames, selected fields and filtering rules are documented in [Project Documentation](Documentation/project-documentation.md).
+## Documentation
+
+Detailed project documentation covering the data sources, Azure Data Factory pipeline, Databricks processing, data validation, Gold tables, Synapse Serverless SQL and Metabase is available in the [Project Documentation](Documentation/project-documentation.md).
 
 ## Data Pipeline
 
