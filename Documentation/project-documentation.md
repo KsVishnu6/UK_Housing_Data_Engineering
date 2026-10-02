@@ -41,7 +41,7 @@ Bronze Silver Gold
 Synapse Serverless SQL
         |
         v
-Metabase
+     Metabase
 ```
 
 ### Azure Services
