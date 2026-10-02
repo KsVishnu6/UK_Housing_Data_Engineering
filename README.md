@@ -134,13 +134,13 @@ The dashboard includes visualisations covering:
 UK_Housing_Data_Engineering/
 │
 ├── README.md
-├── Architecture/
 ├── ADF/
-├── Databricks/
 ├── ADLS/
+├── Architecture/
 ├── BLOB Storage/
+├── Databricks/
+├── Documentation/
 ├── Key Vault/
-├── Unity catalog/
-├── Synapse/
 ├── Metabase/
-└── Documentation/
+├── Synapse/
+└── Unity catalog/
