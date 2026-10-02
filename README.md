@@ -137,7 +137,10 @@ UK_Housing_Data_Engineering/
 ├── Architecture/
 ├── ADF/
 ├── Databricks/
+├── ADLS/
+├── BLOB Storage/
+├── Key Vault/
+├── Unity catalog/
 ├── Synapse/
 ├── Metabase/
-├── Source_Data/
 └── Documentation/
