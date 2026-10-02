@@ -510,36 +510,13 @@ The dashboard is the final consumption layer of the pipeline rather than the mai
 UK_Housing_Data_Engineering/
 │
 ├── README.md
-│
-├── Architecture/
-│   └── architecture-diagram.png
-│
 ├── ADF/
-│   ├── code / exported files
-│   └── screenshots
-│
+├── ADLS/
+├── Architecture/
+├── BLOB Storage/
 ├── Databricks/
-│   ├── Bronze/
-│   │   ├── code
-│   │   └── screenshots
-│   ├── Silver/
-│   │   ├── code
-│   │   └── screenshots
-│   ├── Gold/
-│   │   ├── code
-│   │   └── screenshots
-│   └── Validation/
-│       ├── code
-│       └── screenshots
-│
-├── Synapse/
-│   ├── SQL code
-│   └── screenshots
-│
+├── Documentation/
+├── Key Vault/
 ├── Metabase/
-│   └── screenshots
-│
-├── Source_Data/
-│
-└── Documentation/
-    └── project-documentation.md
+├── Synapse/
+└── Unity catalog/
