@@ -51,7 +51,7 @@ Synapse Serverless SQL
 - ADLS Gen2 — raw data storage
 - Azure Databricks — PySpark transformations and validation
 - Delta Lake / Unity Catalog — Gold data and table management
-- Azure Key Vault — secure storage of the Databricks access token
+- Azure Key Vault — managed secret store for the Blob Storage key, the ADLS Gen2 key, and the Databricks access token used by ADF.
 - Synapse Serverless SQL — SQL views over the Gold data
 - Metabase — dashboard and data visualisation
 
