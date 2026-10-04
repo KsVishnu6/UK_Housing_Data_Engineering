@@ -12,9 +12,6 @@ The main focus of the project is the data engineering pipeline: ingestion, trans
 
 ![UK Housing Data Engineering Architecture](Architecture/architecture-diagram.png)
 
-The pipeline follows this flow:
-
-**Public Datasets → Azure Blob Storage → Azure Data Factory → ADLS Gen2 → Databricks Bronze/Silver/Gold → Synapse Serverless SQL → Metabase**
 
 ## Technologies
 
