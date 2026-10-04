@@ -31,17 +31,17 @@ The main focus of the project is the data engineering pipeline: ingestion, trans
 
 ## 3. Source Data
 
-Five public datasets are used in the project:
+The project uses five open-data datasets covering housing and local authorities:
 
-1. Local Authorities
-2. House Prices
-3. Statutory Homelessness
-4. Local Authority Housing Statistics
-5. English Indices of Deprivation
+- Local Authorities
+- House Prices
+- Statutory Homelessness
+- Local Authority Housing Statistics
+- English Indices of Deprivation
 
-The datasets come from public sources including GOV.UK, the Office for National Statistics and mySociety.
+The datasets come from GOV.UK, the Office for National Statistics and mySociety.
 
-Each source has a different structure, so source-specific processing is applied before the datasets are brought into the common Gold model.
+The analysis is limited to English local authorities. Homelessness, Local Authority Housing Statistics and the Indices of Deprivation cover England. House prices also include Wales, so those rows were removed. Combined-authority rows were removed from the local-authority list so the remaining records can be joined on the local-authority code.
 
 ### 3.1 Local Authorities
 
