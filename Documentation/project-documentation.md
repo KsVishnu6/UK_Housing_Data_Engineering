@@ -6,6 +6,8 @@ This project is an end-to-end UK housing data engineering pipeline built using M
 
 The project brings together multiple UK housing datasets from ONS, GOV.UK and mySociety open data, and processes them through an automated pipeline. Data is ingested using Azure Data Factory, stored in ADLS Gen2, and transformed and validated in Azure Databricks using PySpark, Delta Lake and Unity Catalog. The Gold layer is a dimensional model, and it is accessed through Synapse Serverless SQL and used by Metabase for reporting.
 
+The pipeline is built to compare English local authorities on house prices, statutory homelessness, local-authority housing stock and deprivation. All four measures are aligned to the same local-authority code.
+
 The main focus of the project is the data engineering pipeline: ingestion, transformation, validation, standardisation and preparation of data for analytics.
 
 ---
