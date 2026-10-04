@@ -12,37 +12,7 @@ The main focus of the project is the data engineering pipeline: ingestion, trans
 
 ## 2. Architecture
 
-The overall pipeline follows this flow:
-
-```text
-Public Data Sources
-        |
-        v
-Azure Blob Storage
-        |
-        | Event Trigger
-        v
-Azure Data Factory
-        |
-        v
-ADLS Gen2 / Raw
-        |
-        v
-Azure Databricks
-        |
-   +----+----+
-   |    |    |
-   v    v    v
-Bronze Silver Gold
-   |    |    |
-   +----+----+
-        |
-        v
-Synapse Serverless SQL
-        |
-        v
-     Metabase
-```
+![UK Housing Data Engineering Architecture](Architecture/architecture-diagram.png)
 
 ### Azure Services
 
