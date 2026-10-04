@@ -12,7 +12,7 @@ The main focus of the project is the data engineering pipeline: ingestion, trans
 
 ## 2. Architecture
 
-![UK Housing Data Engineering Architecture](Architecture/architecture-diagram.png)
+![UK Housing Data Engineering Architecture](../Architecture/architecture-diagram.png)
 
 ### Azure Services
 
