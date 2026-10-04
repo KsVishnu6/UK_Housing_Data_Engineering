@@ -31,7 +31,7 @@ The pipeline follows this flow:
 
 ## Source Data
 
-The project uses five public datasets covering UK housing and local-authority information:
+The project uses five open-data datasets covering housing and local authorities:
 
 - Local Authorities
 - House Prices
@@ -39,7 +39,9 @@ The project uses five public datasets covering UK housing and local-authority in
 - Local Authority Housing Statistics
 - English Indices of Deprivation
 
-The datasets come from public sources including GOV.UK, the Office for National Statistics and mySociety.
+The datasets come from GOV.UK, the Office for National Statistics and mySociety.
+
+The analysis is limited to English local authorities. Homelessness, Local Authority Housing Statistics and the Indices of Deprivation cover England. House prices also include Wales, so those rows were removed. Combined-authority rows were removed from the local-authority list so the remaining records can be joined on the local-authority code.
 
 ## Documentation
 
